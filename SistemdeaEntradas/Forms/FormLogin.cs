@@ -19,7 +19,7 @@ namespace sistemaEntradas.forms
             {
                 using (var con = Conexion.ObtenerConexion())
                 {
-                    string sql = "SELECT * FROM usuarios WHERE nombre=@nom AND contraseña=@pass";
+                    string sql = "SELECT * FROM usuarios WHERE nombre=@nom AND contrasenia=@pass";
                     MySqlCommand cmd = new MySqlCommand(sql, con);
                     cmd.Parameters.AddWithValue("@nom", TxtUsuario.Text);
                     cmd.Parameters.AddWithValue("@pass", TxtContrasena.Text);
@@ -55,6 +55,11 @@ namespace sistemaEntradas.forms
         }
 
         private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TxtContrasena_TextChanged(object sender, EventArgs e)
         {
 
         }

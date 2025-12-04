@@ -46,7 +46,7 @@
             // 
             // TxtUsuario
             // 
-            this.TxtUsuario.Location = new System.Drawing.Point(403, 92);
+            this.TxtUsuario.Location = new System.Drawing.Point(403, 95);
             this.TxtUsuario.Name = "TxtUsuario";
             this.TxtUsuario.Size = new System.Drawing.Size(100, 20);
             this.TxtUsuario.TabIndex = 1;
@@ -67,6 +67,7 @@
             this.TxtContrasena.PasswordChar = '*';
             this.TxtContrasena.Size = new System.Drawing.Size(100, 20);
             this.TxtContrasena.TabIndex = 3;
+            this.TxtContrasena.TextChanged += new System.EventHandler(this.TxtContrasena_TextChanged);
             // 
             // BtnIngresar
             // 
