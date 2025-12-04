@@ -50,7 +50,7 @@
             // 
             // TxtNombre
             // 
-            this.TxtNombre.Location = new System.Drawing.Point(317, 73);
+            this.TxtNombre.Location = new System.Drawing.Point(332, 73);
             this.TxtNombre.Name = "TxtNombre";
             this.TxtNombre.Size = new System.Drawing.Size(100, 20);
             this.TxtNombre.TabIndex = 1;
@@ -120,6 +120,7 @@
             this.Controls.Add(this.lblNombre);
             this.Name = "FormEspect";
             this.Text = "FormEspect";
+            this.Load += new System.EventHandler(this.FormEspect_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgvEspect)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

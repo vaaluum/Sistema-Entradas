@@ -21,5 +21,10 @@ namespace SistemdeaEntradas.Forms
         {
             this.Close();
         }
+
+        private void FormVendedor_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

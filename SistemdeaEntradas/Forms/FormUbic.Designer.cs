@@ -141,6 +141,7 @@
             this.Controls.Add(this.lblEspect);
             this.Name = "FormUbic";
             this.Text = "FormUbic";
+            this.Load += new System.EventHandler(this.FormUbic_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DgvUbicaciones)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

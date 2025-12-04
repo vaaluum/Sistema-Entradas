@@ -28,5 +28,10 @@ namespace SistemdeaEntradas.Forms
         {
             this.Close();
         }
+
+        private void FormAdmin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

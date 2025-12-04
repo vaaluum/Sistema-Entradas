@@ -61,6 +61,7 @@
             this.Controls.Add(this.BtnVender);
             this.Name = "FormVendedor";
             this.Text = "FormVendedor";
+            this.Load += new System.EventHandler(this.FormVendedor_Load);
             this.ResumeLayout(false);
 
         }

@@ -58,5 +58,10 @@ namespace SistemdeaEntradas.Forms
                 MessageBox.Show("Error al guardar ubicación: " + ex.Message);
             }
         }
+
+        private void FormUbic_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

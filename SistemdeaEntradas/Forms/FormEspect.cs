@@ -55,7 +55,10 @@ namespace sistemaEntradas.forms
             }
         }
 
+        private void FormEspect_Load(object sender, EventArgs e)
+        {
 
+        }
     }
 }
 

@@ -55,7 +55,7 @@
             // 
             // BtnSalir
             // 
-            this.BtnSalir.Location = new System.Drawing.Point(332, 241);
+            this.BtnSalir.Location = new System.Drawing.Point(328, 241);
             this.BtnSalir.Name = "BtnSalir";
             this.BtnSalir.Size = new System.Drawing.Size(135, 37);
             this.BtnSalir.TabIndex = 2;
@@ -73,6 +73,7 @@
             this.Controls.Add(this.BtnEspectaculos);
             this.Name = "FormAdmin";
             this.Text = "FormAdmin";
+            this.Load += new System.EventHandler(this.FormAdmin_Load);
             this.ResumeLayout(false);
 
         }

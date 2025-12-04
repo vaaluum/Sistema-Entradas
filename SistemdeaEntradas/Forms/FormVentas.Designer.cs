@@ -53,7 +53,7 @@
             this.CboEspectaculos.Name = "CboEspectaculos";
             this.CboEspectaculos.Size = new System.Drawing.Size(121, 21);
             this.CboEspectaculos.TabIndex = 1;
-            this.CboEspectaculos.SelectedIndexChanged += new System.EventHandler(this.cboEspectaculos_SelectedIndexChanged);
+            this.CboEspectaculos.SelectedIndexChanged += new System.EventHandler(this.CboEspectaculos_SelectedIndexChanged);
             // 
             // lblUbic
             // 

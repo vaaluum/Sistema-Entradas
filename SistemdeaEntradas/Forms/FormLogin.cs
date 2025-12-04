@@ -53,5 +53,10 @@ namespace sistemaEntradas.forms
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
